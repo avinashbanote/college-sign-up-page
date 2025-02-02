@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IV Semester Time Table</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif; 
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .recess {
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING</h2>
+        <p><strong>SESSION:2024-2025</strong></p>
+        <p><strong><u>DEPARTMENTAL TIME TABLE</u></strong></p>
+        <p><strong><u>W.E.F: 03/01/2025</u></strong></p>
+        <p style="text-align:left;">
+            IV SEM
+            <span style="float:right;">
+                Room No.: ASF 201
+            </span>
+        </p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+               
+                <th>Day<br>Time</th>
+                <th>1<br>(10:15-11:15)</th>
+                <th>2<br>(11:15-12:15)</th>
+                <th>3<br>(12:15-1:15)</th>
+                <th>Recess<br>(1:15-2:00)</th>
+                <th>4<br>(2:00-3:00)</th>
+                <th>5<br>(3:00-4:00)</th>
+                <th>6<br>(4:00-5:00)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>EDM<br>AM</td>
+                  <td colspan="2">B1/OOPL/CCIL/PVR<br>B2/CWS-1/DWL/ARD</td>
+                <td class="recess">RECESS</td> 
+                <td>FLA<br>TSP</td>
+                <td>AEC-ETC<br>PS</td>
+                <td>Library</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>AEC-ETC<br>PS</td>
+                <td>CAO<br>ARD</td>
+                <td>MDM</td>
+                <td class="recess">RECESS</td>
+                <td colspan="2">B2/OOPL/CCIL/PVR<br>B1/CWS-1/DWL/ARD</td>
+                <td>Library</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>OOP<br>APM</td>
+                <td>CAO<br>ARD</td>
+                <td>MDM</td>
+                <td class="recess">RECESS</td>
+                <td>EDM<br>AM</td>
+                <td>DTS<br>VRT</td>
+                <td>Library</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>FLA<br>TSP</td>
+                <td>OOP<br>APM</td>
+                <td>OPEN ELECTIVE</td>
+                <td class="recess">RECESS</td>
+                <td>CAO<br>ARD</td>
+                <td>TECHNICAL EXPOSURE<br>SRK</td>
+                <td>Library</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>DTS<br>VRT</td>
+                <td>FLA<br>TSP</td>
+                <td>OPEN ELECTIVE</td>
+                <td class="recess">RECESS</td>
+                <td>OOP<br>APM</td>
+                <td>NPTL<br>ARD</td>
+                <td>Library</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td colspan="2">Technical Exposure</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abbreviations</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Abbreviations</h1>
+    <p style="text-align:left;">
+       
+            <td>PP</td>
+            <td>Python Programming</td>
+       
+        <span style="float:right;">
+            <td>SRK</td>
+            <td>Er. S. R. Kolte</td>
+        </span>
+        <p style="text-align:left;">
+       
+            <td>PP</td>
+            <td>Python Programming lab</td>
+       
+        <span style="float:right;">
+            <td>SRK</td>
+            <td>Er. S. R. Kolte</td>
+        </span>
+        
+        <p style="text-align:left;">
+       
+            <td>CAO</td>
+            <td>Computer Architecture and Organization</td>
+       
+        <span style="float:right;">
+            <td>DRN</td>
+            <td>Er. D. B. Nimje</td>
+        </span>
+        <p style="text-align:left;">
+       
+            <td>TOC</td>
+            <td>Theory of Computation</td>
+        <span style="float:right;">
+            <td>PBA</td>
+            <td>Er. P. B. Aher</td>
+        </span>
+        <p style="text-align:left;">
+       
+            <td>AEC-ETC</td>
+            <td>Ability Enhancement Course-Effective Technical Communication</td>
+        <span style="float:right;">
+            <td>PS</td>
+            <td>Er. Padmaja Singh</td>
+        </span>
+        <p style="text-align:left;">
+       
+            <td>EDM</td>
+            <td>Entrepreneurship Development Management</td>
+        <span style="float:right;">
+            <td>AM</td>
+            <td>Er. Avinash Mangle</td
+        </span>
+         <p style="text-align:left;">
+       
+            <td>DTS</td>
+            <td>Digital and Technological Solution</td>
+        <span style="float:right;">
+            <td>PVR</td>
+            <td>Er. P. V. Rathod</td>
+        </span>
+        <p style="text-align:left;">
+       
+            <td>CWS-I</td>
+            <td>Computer Workshop - I</td>
+        <span style="float:right;">
+            <td>PBA</td>
+            <td>Er. P. B. Aher</td>
+        </span>
+        <p style="text-align:left;">
+       
+            <td>NPTEL</td>
+            <td>NPTEL</td>
+        <span style="float:right;">
+            <td>SPT</td>
+            <td>Er. S. P. Tete</td>
+        </span>
+        <p style="text-align:left;">
+       
+            <td>TE</td>
+            <td>Technical Exposure</td>
+        <span style="float:right;">
+            <td>TSP</td>
+            <td>Er. T. S. Palorkar</td>
+        </span>
+</body>
+</html>
